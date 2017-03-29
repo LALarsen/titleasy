@@ -18,6 +18,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function boot()
     {
+        $this->registerTitleasy();
     }
 
     /**
@@ -25,11 +26,13 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function registerTitleasy()
     {
         $this->app->singleton('titleasy', function ($app) {
             return new Titleasy();
         });
+        
+        $this->app->alias('titleasy', Titleasy::class);
     }
 
     /**
