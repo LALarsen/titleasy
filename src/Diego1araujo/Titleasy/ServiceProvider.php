@@ -18,7 +18,6 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function boot()
     {
-        $this->package('diego1araujo/titleasy');
     }
 
     /**
