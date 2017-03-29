@@ -27,7 +27,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function register()
     {
-        $this->app['titleasy'] = $this->app->singleton('redirect', function ($app) {
+        $this->app->singleton('redirect', function ($app) {
             return new Titleasy();
         });
     }
