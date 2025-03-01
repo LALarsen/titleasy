@@ -1,6 +1,6 @@
 {
     "name": "diego1araujo/titleasy",
-    "description": "Build titles like a charm in Laravel 4/5/6/7",
+    "description": "Build titles like a charm in Laravel 4/5/6/7/8/9/10/11",
     "keywords": ["laravel", "title"],
     "license": "BSD-2-Clause",
     "authors": [
@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=7.2.0",
-        "illuminate/support": "~4|~5|~6|~7|~8"
+        "illuminate/support": "~4|~5|~6|~7|~8|~9|~10|~11"
     },
     "autoload": {
         "psr-0": {
